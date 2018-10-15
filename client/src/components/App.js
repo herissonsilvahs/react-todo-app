@@ -1,10 +1,10 @@
 import React from 'react'
-import Todo from './todo/Todo'
-
-export default () => {
+import Navbar from './utils/Navbar'
+export default props => {
   return (
     <div>
-      <h1>Hello!</h1>
+      <Navbar />
+      { props.children }
     </div>
   )
 }

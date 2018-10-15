@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
+import Routes from './routes/index'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css'
-import './assets/style.css'
+import './assets/sass/main.sass'
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<Routes />, document.getElementById('app'))
