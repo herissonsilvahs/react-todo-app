@@ -1,10 +1,17 @@
 import React from 'react'
 import Navbar from './utils/Navbar'
-export default props => {
-  return (
-    <div>
-      <Navbar />
-      { props.children }
-    </div>
-  )
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="app">
+        <Navbar></Navbar>
+        <div className="container">
+
+        </div>
+      </div>
+    )
+  }
 }
+
+export default App
